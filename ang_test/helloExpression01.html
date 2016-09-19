@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body ng-app="helloApp">
+<div ng-controller="expCtrl">
+    <input type="text" ng-model="name">
+    <h3>{{title|uppercase}}</h3>
+    <h3>{{title|lowercase}}</h3>
+    <h3>{price|currency}}</h3>
+    <h3>{{name}}</h3>
+    <h3>{{date|date:'short'}}</h3>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+<script>
+    var app = angular.module("helloApp",[]);
+    app.controller("expCtrl",function($scope){
+        $scope.title="Hello App";
+        $scope.price=123;
+        $scope.date=new Date();
+    });
+</script>
+</body>
+</html>
