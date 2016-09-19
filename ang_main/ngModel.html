@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body ng-app="helloApp">
+    <div ng-controller="helloCtrl">
+        {{name}}
+        <p>Count : <input ng-model="product.cnt"></p>
+        <p>Price : <input ng-model="product.price"></p>
+        <p>Total : <input value="{{product.cnt * product.price}}"></p>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+    <script>
+        var hello = angular.module("helloApp",[]);
+        hello.controller("helloCtrl",['$scope',function($scope){
+            var product={
+                cnt : 12,
+                price : 200
+            };
+            $scope.product = product;
+            $scope.name="hong";
+        }]);
+    </script>
+</body>
+</html>
