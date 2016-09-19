@@ -1,0 +1,18 @@
+<!DOCTYPE html> <!--다음의 예제 : html에 ng-app속성, body에 ng-controller속성을 두었다.-->
+<html ng-app="myApp" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+</head>
+<body>
+    <h1>{{test}}</h1>
+
+    <script>
+        var myModule=angular.module('myApp',[]);
+        myModule.run(function($rootScope){
+            $rootScope.test="홍길동";
+        })     //Angular JS's advantage : SPA(Single Page Application), 리소스가 줄어든다.
+    </script>
+</body>
+</html>
