@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+    <script>
+        $(function(){
+            alert("hello");
+        })
+    </script>
+</head>
+<body data-ng-app>
+    <input type="text" ng-model="name_txt">
+    <p> Hello {{name_txt}}</p> <!--{{}}은 Expression Statement이다. 즉 결과를 출력하는 표현식.-->
+</body>
+</html>
