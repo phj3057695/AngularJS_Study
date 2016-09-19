@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body ng-app="helloApp">
+    <h1 ng-controller="ctrl">{{test}}</h1>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+    <script>
+        function helloCtrl($scope){
+            $scope.test="Hello Hong-gildong";
+        }
+        angular.module('helloApp',[]).controller('ctrl',helloCtrl);
+    </script>
+</body>
+</html>

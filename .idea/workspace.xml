@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f6b6d1f-bf93-49f4-8db0-4adce29d1a4d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ang_main/external_js/hello.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ang_main/scopeEx.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ang_test/helloController.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="AngularJS_Study.iws" />
@@ -67,11 +66,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="scopeEx.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="scopeEx.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ang_main/scopeEx.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            <state relative-caret-position="266">
+              <caret line="14" column="96" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="96" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="helloController.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ang_test/helloController.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -94,8 +103,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -111,6 +120,9 @@
         <option value="$PROJECT_DIR$/ang_main/module1.html" />
         <option value="$PROJECT_DIR$/ang_main/external_js/hello.js" />
         <option value="$PROJECT_DIR$/ang_main/scopeEx.html" />
+        <option value="$PROJECT_DIR$/ang_main/scopeEx2.html" />
+        <option value="$PROJECT_DIR$/helloController.html" />
+        <option value="$PROJECT_DIR$/ang_test/helloController.html" />
       </list>
     </option>
   </component>
@@ -185,24 +197,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AngularJS_Study" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AngularJS_Study" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ang_main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="external_js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -215,6 +209,11 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\UNion-Nexus\WebstormProjects\AngularJS_Study\ang_test" />
+    </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.helloAngularJS1.html">
     <configuration default="false" name="helloAngularJS.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/AngularJS_Study/ang_test/helloAngularJS.html">
@@ -291,12 +290,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1474252052676</updated>
-      <workItem from="1474252058431" duration="5275000" />
+      <workItem from="1474252058431" duration="5620000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5275000" />
+    <option name="totallyTimeSpent" value="5620000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="960" height="1040" extended-state="0" />
@@ -378,10 +377,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ang_main/scopeEx2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ang_main/scopeEx.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        <state relative-caret-position="266">
+          <caret line="14" column="96" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="96" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ang_test/helloController.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           <folding />
         </state>
       </provider>
